@@ -2,6 +2,15 @@
   "name": "hardhat-project",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1",
     "hardhat": "^2.17.1"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat run --network localhost scripts/deploy.ts",
+    "deploy-prod": "npx hardhat run --network arbitrumGoerli scripts/deploy.ts"
   }
 }

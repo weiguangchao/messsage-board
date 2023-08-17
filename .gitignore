@@ -12,3 +12,5 @@ artifacts
 # webstorm
 .idea
 
+.DS_Store
+
